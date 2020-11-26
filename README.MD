@@ -1,51 +1,52 @@
-<h2 align="center">
+<h1 align="center">
 	Mankind
-</h2>
-<h3 align="center">
+</h1>
+	
+<h2 align="center">
 	The best between worlds
 	<br>
-	<a href="https://img.shields.io/badge/type-Open Project-green">
-		<img src="https://img.shields.io/badge/type-Open Project-green" align="center">
+	<a href="https://img.shields.io/github/contributors/rsaz/mankind">
+		<img src="https://img.shields.io/badge/unity%20-%23000000.svg?&style=flat&logo=unity&logoColor=white" align="center" padding="5"/>
 	</a>
-    <a href="https://img.shields.io/github/repo-size/rsaz/mankind">
-        <img src="https://img.shields.io/github/repo-size/rsaz/mankind" align="center"/>
-    </a>	
-    <a href="https://img.shields.io/github/contributors/rsaz/mankind.svg">
-        <img src="https://img.shields.io/github/contributors/rsaz/mankind.svg" align="center"/>
-    </a>
-    <a href="https://img.shields.io/github/stars/rsaz/mankind?style=social">
-        <img src="https://img.shields.io/github/stars/rsaz/mankind?style=social" align="center"/>
-    </a>	
+	<a href="https://img.shields.io/badge/type-Open Project-green">
+		<img src="https://img.shields.io/badge/type-Open Project-green ?style=flat" align="center" padding="5">
+	</a>
+	<a href="https://img.shields.io/github/repo-size/rsaz/mankind">
+		<img src="https://img.shields.io/github/repo-size/rsaz/mankind?style=flat" align="center" padding="5"/>
+	</a>
+	<a href="https://img.shields.io/github/issues-pr-closed-raw/rsaz/mankind">
+		<img src="https://img.shields.io/github/issues-pr-closed-raw/rsaz/mankind?&style=flat" align="center" padding="5"/>
+	</a>
+	<a href="https://img.shields.io/github/issues-closed-raw/rsaz/mankind">
+		<img src="https://img.shields.io/github/issues-closed-raw/rsaz/mankind?&style=flat" align="center"/>
+	</a>
 	<br>
-</h3>
-
+	<br>
+    	Contributors
+	<br>
+	<br>
+    	<img src="https://badges.pufler.dev/contributors/rsaz/mankind?size=50&padding=5&bots=true" align="center"/>
+	<br>
+</h2>
+<p align="center">an open project from Akira community.</p>
 <p align="center">
-	Repository for Mankind, the open project from Akira community.
+	<img src="https://unity3d.com/profiles/unity3d/themes/unity/images/ui/ui/unity-logo-black.svg" width="80" align="center">
 </p>
 
-<p align="center">
-	<img src="https://unity3d.com/profiles/unity3d/themes/unity/images/ui/ui/unity-logo-black.svg" width="200" align="center">
-</p>
-
+___
 ## Project Purpose
 We are trying to build a society in a 2D top-down world where people will be able to craft, farm, study, buy and sell and define the fate of his character/avatar.
 This is a game that is being built by the community. Well, can be a game in the future, but for now has been a play ground for practicing unity engine. Of course, we try to coordinate some of the aspects we can have in the game in order to establish some bare-bones of the idea, otherwise would be too loose. It is the first attempt to build a game where everyone can contribute, collaborate with art, ui, music, programming. Whatever you good at, you can help to shape this world.
 
 Come and join us to discover what is possible to build working together free from the chains of a scope. :)
 
-## Useful links
-[Discord](https://discord.com/invite/PyPJfGK) | [Twitch](https://www.twitch.tv/id_akira) | [Unity Documentation](https://docs.unity3d.com/Manual/index.html) | [Project Roadmap](https://github.com/rsaz/mankind/projects)
-
-
 ## Why Contribute
 To Improve your skill, learn a new one or just to help the community and build this amazing world. ❤
 
 ## Before You Start / Project Guidelines
+* For this project, we will use **Unity 2020.1.8f1**, whatever the latest patch version is. 
 * See the project [issues](https://github.com/rsaz/mankind/issues) to implement or suggest a new feature.
 * If you need any extra information, feel free to contact us in the discord channel.
-
-## Unity Version
-For this project, we will use **Unity 2020.1.8f1**, whatever the latest patch version is. 
 
 ## Things not allowed
 There are a number of things we disallow or discourage, in order to keep the project organised and fun for everyone.
@@ -66,37 +67,46 @@ Any of these rules can be “broken” if there is a reason. Please discuss on t
 
 If you do any of the above, we reserve the right to ban you from contributing to the project any further. In case of doubt regarding intellectual property, ask first on the forums.
 
-## Project Structure
-* Folders
-	* Assets
-		* _Game
-			* Animation
-			* Art
-			* Resources
-			* Scenes
-			* Scripts
-			* Settings
-		* External packages are installed directly in the Assets folder
+## Convention
+
+* ### Project Structure
+	* Folders
+		* Assets
+			* _Game
+				* Animation
+				* Art
+				* Resources
+				* Scenes
+				* Scripts
+				* Settings
+			* External packages are installed directly in the Assets folder
 			
-## Scripts
-* Follow the C# name convention
-	* **Camel Case (camelCase):** In this standard, the first letter of the word always in small letter and after that each word starts with a capital letter.
-	* **Pascal Case (PascalCase):** In this the first letter of every word is in capital letter.
-	* **Underscore Prefix (_underScore):** For underscore ( __ ), the word after _ use camelCase terminology.
+* ### Scripts
+	* Follow the C# name convention
+		* **Camel Case (camelCase):** In this standard, the first letter of the word always in small letter and after that each word starts with a capital letter.
+		* **Pascal Case (PascalCase):** In this the first letter of every word is in capital letter.
+		* **Underscore Prefix (_underScore):** For underscore ( __ ), the word after _ use camelCase terminology.
+		<br>
 
-| Kind        	     | Rule             |        
-| -------------------|:----------------:|
-| Private field      | _lowerCamelCase  |
-| Public field       |  UpperCamelCase  |
-| Protected field    |  UpperCamelCase  |
-| Internal field     |  UpperCamelCase  |
-| Property           |  UpperCamelCase  |
-| Method             |  UpperCamelCase  |
-| Class              |  UpperCamelCase  |
-| Interface          | IUpperCamelCase  |
-| Local variable     |  lowerCamelCase  |
-| Parameter          |  lowerCamelCase  |
+	| Kind        	     | Rule             |        
+	| -------------------|:----------------:|
+	| Private field      | _lowerCamelCase  |
+	| Public field       |  UpperCamelCase  |
+	| Protected field    |  UpperCamelCase  |
+	| Internal field     |  UpperCamelCase  |
+	| Property           |  UpperCamelCase  |
+	| Method             |  UpperCamelCase  |
+	| Class              |  UpperCamelCase  |
+	| Interface          | IUpperCamelCase  |
+	| Local variable     |  lowerCamelCase  |
+	| Parameter          |  lowerCamelCase  |
 
+* ### Images
+	* Size...
+		
+___
+## Useful links
+[Discord](https://discord.com/invite/PyPJfGK) | [Twitch](https://www.twitch.tv/id_akira) | [Unity Documentation](https://docs.unity3d.com/Manual/index.html) | [Project Roadmap](https://github.com/rsaz/mankind/projects)
 ___
 
 ## Contributing Guide
