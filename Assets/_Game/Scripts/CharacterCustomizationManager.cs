@@ -7,7 +7,8 @@ using UnityEditor;
 
 public class CharacterCustomizationManager : MonoBehaviour
 {
-    public List<CharacterCustomization> characterCustomization = new List<CharacterCustomization>();  
+    public List<CharacterCustomization> characterCustomization = new List<CharacterCustomization>();
+   
     public void RandomOption()
     {
         foreach (CharacterCustomization option in characterCustomization)

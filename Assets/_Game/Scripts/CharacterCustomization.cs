@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System.Security.AccessControl;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using Random = UnityEngine.Random;
 using UnityEngine;
 
@@ -7,13 +10,13 @@ public class CharacterCustomization : MonoBehaviour
     #region Properties
 
     [Header("Body part to be changed")]
-    [SerializeField] protected SpriteRenderer part;
+    public SpriteRenderer part;
 
     [Header("Sprites to select")]
-    [SerializeField] protected List<Sprite> options = new List<Sprite>();
+    public List<Sprite> options = new List<Sprite>();
 
     //SpriteRenderer currentPart = part;
-    protected int currentOption = 0;
+    public int currentOption = 0;
 
     #endregion
 
